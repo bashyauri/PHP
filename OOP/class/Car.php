@@ -7,8 +7,8 @@
      * class is opened and closed with {} like functions.
      *
      */
-    class Car{
-        function helloClass(){
-            echo "Hello from car class".PHP_EOL;
-        }
-    }
+    // class Car{
+    //     function helloClass(){
+    //         echo "Hello from car class".PHP_EOL;
+    //     }
+    // }
