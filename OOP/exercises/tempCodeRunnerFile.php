@@ -1,2 +1,5 @@
 <?php
-This is nice stuff
+function __construct(string $name)
+    {
+        $this->name = $name;
+    }
