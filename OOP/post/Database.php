@@ -40,7 +40,7 @@ public function query($query)
     $this->stmt = $this->connection->prepare($query);
 }
 // Execute the prepared statement
-public function execute()
+public function execute():bool
 {
     return $this->stmt->execute();
 }
